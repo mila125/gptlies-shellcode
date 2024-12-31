@@ -1,0 +1,48 @@
+
+nasmhola.exe:     file format pei-x86-64
+
+
+Disassembly of section .text:
+
+0000000140001000 <.text>:
+   140001000:	48 31 c0             	xor    %rax,%rax
+   140001003:	50                   	push   %rax
+   140001004:	48 bb 41 41 41 41 41 	movabs $0x6c6c414141414141,%rbx
+   14000100b:	41 6c 6c 
+   14000100e:	48 c1 eb 30          	shr    $0x30,%rbx
+   140001012:	53                   	push   %rbx
+   140001013:	48 bb 75 73 65 72 33 	movabs $0x642e323372657375,%rbx
+   14000101a:	32 2e 64 
+   14000101d:	53                   	push   %rbx
+   14000101e:	48 89 e1             	mov    %rsp,%rcx
+   140001021:	48 bb 41 41 70 0c 09 	movabs $0x7ffa4e090c704141,%rbx
+   140001028:	4e fa 7f 
+   14000102b:	48 c1 eb 10          	shr    $0x10,%rbx
+   14000102f:	ff d3                	call   *%rbx
+   140001031:	50                   	push   %rax
+   140001032:	48 bb 77 6e 65 64 20 	movabs $0x756f792064656e77,%rbx
+   140001039:	79 6f 75 
+   14000103c:	53                   	push   %rbx
+   14000103d:	48 bb 72 63 65 33 36 	movabs $0x7020393633656372,%rbx
+   140001044:	39 20 70 
+   140001047:	53                   	push   %rbx
+   140001048:	48 bb 61 69 64 65 6e 	movabs $0x6165706e65646961,%rbx
+   14000104f:	70 65 61 
+   140001052:	53                   	push   %rbx
+   140001053:	48 89 e2             	mov    %rsp,%rdx
+   140001056:	50                   	push   %rax
+   140001057:	48 bb 30 78 68 61 63 	movabs $0x64656b6361687830,%rbx
+   14000105e:	6b 65 64 
+   140001061:	53                   	push   %rbx
+   140001062:	49 89 e0             	mov    %rsp,%r8
+   140001065:	48 31 c9             	xor    %rcx,%rcx
+   140001068:	4d 31 c9             	xor    %r9,%r9
+   14000106b:	48 bb 41 41 d0 90 e9 	movabs $0x7ffa4ee990d04141,%rbx
+   140001072:	4e fa 7f 
+   140001075:	48 c1 eb 10          	shr    $0x10,%rbx
+   140001079:	ff d3                	call   *%rbx
+   14000107b:	48 31 c9             	xor    %rcx,%rcx
+   14000107e:	48 bb 41 41 20 e8 08 	movabs $0x7ffa4e08e8204141,%rbx
+   140001085:	4e fa 7f 
+   140001088:	48 c1 eb 10          	shr    $0x10,%rbx
+   14000108c:	ff d3                	call   *%rbx
